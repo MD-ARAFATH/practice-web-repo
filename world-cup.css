@@ -1,0 +1,174 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 700px;
+}
+h2 {
+  display: flex;
+  height: 2.5em;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+.flexiable-container {
+  display: flex;
+  width: 1232px;
+  height: 646px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+  margin-right: 50px;
+
+  border: 10px solid black;
+  border-radius: 50px;
+  background-color: #161616;
+}
+.half-width {
+  width: 50%;
+  padding-left: 10%;
+  color: #ffffff;
+}
+.half-width img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.link-button {
+  text-decoration: none;
+
+  background-color: #dd0000;
+  padding: 10px 40px;
+  color: white;
+  font: 700;
+  border-radius: 5px;
+}
+.container {
+  margin-top: 8em;
+}
+
+.matches {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 20px;
+  background-color: white;
+  color: #1e1e1e;
+
+  font-style: normal;
+  font-weight: 500;
+}
+.match {
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.match .match-banner img {
+  width: 330px;
+  height: 175px;
+}
+
+/*/////////
+           website-2 img */
+.match .match-banner-two img {
+  width: 94px;
+  height: 56px;
+}
+
+.match-info {
+  border-radius: 0px;
+  display: flex;
+}
+.match-author {
+  text-align: center;
+  font-weight: 550;
+  color: #161616;
+  width: 80px;
+  height: 24px;
+  margin-left: 2px 2px;
+  margin-right: 2px 2px;
+  border: 2px solid #161616;
+  border-radius: 5px;
+}
+.fa-regular fa-clock {
+  color: #a2a2a2;
+}
+.clock-time {
+  color: #161616;
+}
+.football-match {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+.side-bar ul li {
+  padding: 10px 40px;
+
+  background-color: #dd0000;
+  margin: 0 5px;
+  border-radius: 20px;
+  column-gap: 20px;
+}
+.side-bar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.side-bar ul {
+  background-color: #161616;
+  padding: 20px;
+}
+footer {
+  width: 1400px;
+  height: 380px;
+  background-color: #161616;
+}
+hr {
+  border: 0.1px solid #ffffff;
+  margin: 30px;
+}
+
+.description {
+  display: flex;
+  height: 8em;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.description p {
+  margin: 0px;
+  color: #ffffff;
+}
+.share {
+  display: flex;
+  height: 2em;
+  color: white;
+  gap: 60px;
+  justify-content: center;
+}
+.share p {
+  margin: 0px;
+  color: #ffffff;
+}
+
+/* mobile screen */
+@media screen and (min-width: 600px) {
+  body .container .matches .match {
+    display: flex;
+    flex-direction: column;
+
+    width: 375px;
+    height: 2782px;
+    font-size: 50px;
+    border: 2px solid black;
+  }
+}
