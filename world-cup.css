@@ -7,34 +7,29 @@ body {
 h1 {
   font-size: 70px;
   font-weight: 700px;
+  margin: 0;
 }
 h2 {
-  display: flex;
-  height: 2.5em;
   text-align: center;
-  justify-content: center;
-  padding-top: 20px;
   font-size: 40px;
   color: white;
 }
 
 .flexiable-container {
   display: flex;
-  width: 1232px;
-  height: 646px;
-  margin-top: 50px;
-  margin-bottom: 30px;
-  margin-left: 150px;
-  margin-right: 50px;
+  width: 1200px;
 
-  border: 10px solid black;
-  border-radius: 50px;
+  border-radius: 10px;
   background-color: #161616;
+  margin: auto;
 }
 .half-width {
   width: 50%;
-  padding-left: 10%;
+
   color: #ffffff;
+}
+.text-content {
+  padding: 70px;
 }
 .half-width img {
   width: 100%;
@@ -71,16 +66,15 @@ h2 {
 }
 
 .match .match-banner img {
-  width: 330px;
-  height: 175px;
+  width: 100%;
 }
 
 /*/////////
            website-2 img */
-.match .match-banner-two img {
+/* .match .match-banner-two img {
   width: 94px;
   height: 56px;
-}
+} */
 
 .match-info {
   border-radius: 0px;
@@ -97,6 +91,9 @@ h2 {
   border: 2px solid #161616;
   border-radius: 5px;
 }
+.match-detaile {
+  padding: 15px;
+}
 .fa-regular fa-clock {
   color: #a2a2a2;
 }
@@ -109,14 +106,15 @@ h2 {
   gap: 20px;
   padding-top: 80px;
   padding-bottom: 70px;
+  width: 1200px;
+  margin: auto;
 }
 .side-bar ul li {
   padding: 10px 40px;
 
   background-color: #dd0000;
-  margin: 0 5px;
+  margin: 15px 0;
   border-radius: 20px;
-  column-gap: 20px;
 }
 .side-bar ul li a {
   text-decoration: none;
@@ -125,12 +123,12 @@ h2 {
 }
 .side-bar ul {
   background-color: #161616;
+  margin: 0;
   padding: 20px;
 }
 footer {
-  width: 1400px;
-  height: 380px;
   background-color: #161616;
+  padding: 40px 0;
 }
 hr {
   border: 0.1px solid #ffffff;
