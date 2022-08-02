@@ -45,6 +45,7 @@ h2 {
   font: 700;
   border-radius: 5px;
 }
+
 .container {
   margin-top: 8em;
 }
@@ -56,7 +57,6 @@ h2 {
   grid-row-gap: 20px;
   background-color: white;
   color: #1e1e1e;
-
   font-style: normal;
   font-weight: 500;
 }
@@ -68,13 +68,11 @@ h2 {
 .match .match-banner img {
   width: 100%;
 }
-
-/*/////////
-           website-2 img */
-/* .match .match-banner-two img {
-  width: 94px;
-  height: 56px;
-} */
+.match-baner-two img {
+  padding: 10px;
+  margin: 0;
+  margin: auto;
+}
 
 .match-info {
   border-radius: 0px;
@@ -111,10 +109,12 @@ h2 {
 }
 .side-bar ul li {
   padding: 10px 40px;
-
+  justify-content: center;
+  align-items: center;
   background-color: #dd0000;
   margin: 15px 0;
   border-radius: 20px;
+  list-style: none;
 }
 .side-bar ul li a {
   text-decoration: none;
@@ -158,15 +158,41 @@ hr {
   color: #ffffff;
 }
 
-/* mobile screen */
-@media screen and (min-width: 600px) {
-  body .container .matches .match {
-    display: flex;
-    flex-direction: column;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+ 
+   .flexiable-container  {
+    display: flex:;
+    flex-direction:column;
+    line-height: 154%;
+    width: 100%;
+    margin: 0;
+    
+  } 
 
-    width: 375px;
-    height: 2782px;
-    font-size: 50px;
-    border: 2px solid black;
+  .update-section .matches .football-match {
+    flex-direction:column;
+    text-align:ceter;
+    width: 100%;
+    margin:0;
   }
+  
+  footer {
+    display: flex:;
+    flex-direction:column;
+    width: 100%;
+    margin:0;
+  }
+  /* .matches {
+    width: 78%;
+  }
+  .update-section {
+    width: 78%;
+  }
+  .football-match footer {
+    width: 78%;
+  }
+  footer {
+    width: 78%;
+  } */
 }
